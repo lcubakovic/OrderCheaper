@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "392787477479",
+    "project_id": "ordercheaper",
+    "storage_bucket": "ordercheaper.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:392787477479:android:28cda8d94a2818b9513342",
+        "android_client_info": {
+          "package_name": "cubakoviclv1.ferit.ordercheaper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "392787477479-qcgr6bsnf0smhmldm56rrteppj2sp71j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cubakoviclv1.ferit.ordercheaper",
+            "certificate_hash": "1543b73e5cbad1358fa0be76cdb486a00645579b"
+          }
+        },
+        {
+          "client_id": "392787477479-d8tlpl30mg1n4qu03ng04j36gb3seusl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBISdBtEsBQtE3v8uzxoVNgrx5yG8Qpp_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "392787477479-d8tlpl30mg1n4qu03ng04j36gb3seusl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

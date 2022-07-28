@@ -8,6 +8,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.TextView
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentTransaction
@@ -93,6 +94,13 @@ class FragmentPhoneAuth: Fragment() {
             } else {
                 verifyPhoneNumberWithCode(mVerificationId, code)
             }
+        }
+
+        binding.tvBackToLogin.setOnClickListener {
+            val loginFragment = FragmentLogin()
+            val transaction: FragmentTransaction = parentFragmentManager.beginTransaction()
+            transaction.replace(R.id.frame_layout, FragmentLogin())
+            transaction.commit()
         }
 
         return binding.root

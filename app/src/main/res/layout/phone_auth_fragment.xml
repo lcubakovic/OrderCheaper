@@ -124,8 +124,7 @@
             android:layout_height="wrap_content"
             android:text="Didn't get the code? Resend"
             android:gravity="center_horizontal"
-            android:textColor="@color/main"
-            android:textSize="18sp"
+            android:textColor="@color/gray"
             android:textStyle="bold"
             android:layout_marginTop="450dp"
             android:layout_gravity="center_horizontal"
@@ -141,6 +140,18 @@
             android:textSize="16sp"
             android:layout_marginBottom="20dp"
             android:layout_marginTop="500dp"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:id="@+id/tv_back_to_login"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Back to Login Screen"
+            android:gravity="center_horizontal"
+            android:textColor="@color/gray"
+            android:textStyle="bold"
+            android:layout_marginTop="570dp"
             android:layout_gravity="center_horizontal"
             />
 
